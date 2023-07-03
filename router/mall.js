@@ -1,6 +1,6 @@
 const express = require('express')
 const router = express.Router()
-
+//小玩意
 const mallHandler = require('../router_handler/mall_handler')
 // 新增
 router.post('/add', mallHandler.mallAdd)
